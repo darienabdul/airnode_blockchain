@@ -1,8 +1,8 @@
 # Propuesta individual
 
-**Nombre:** Escribe aquí tu nombre
+**Nombre:** Abdul Ruiz Saldaña
 
-**Usuario de GitHub:** Escribe aquí tu usuario
+**Usuario de GitHub:** darienabdul
 
 ---
 
