@@ -40,18 +40,7 @@
 | 3 | Como auditor, quiero verificar quién realizó cada intervención y cuándo fue registrada para poder comprobar la atribución de las actividades. | Abdul Ruiz Saldaña | Es imprescindible para establecer responsabilidad y demostrar la procedencia de cada actividad durante una revisión interna o regulatoria. |
 | 4 | Como inspector autorizado, quiero revisar la evidencia del trabajo y registrar el resultado de mi inspección para confirmar que la intervención cumple con los procedimientos aplicables. | Diego Alejandro Rubio Ramos | Debería entrar porque incorpora la validación formal del trabajo y conecta la intervención con la inspección requerida antes de su aprobación. |
 | 5 | Como auditor, quiero verificar la integridad y secuencia de los registros para poder identificar modificaciones posteriores o inconsistencias en el historial. | Abdul Ruiz Saldaña | Debería entrar porque permite detectar cambios posteriores y comprobar que el historial mantiene una secuencia confiable. |
-
-
-
-| Prioridad | Historia                                     | Propuesta por | Por qué entra al backlog    |
-| :-------: | -------------------------------------------- | :-----------: | --------------------------- |
-|     1     | Como [rol] quiero [acción] para [beneficio]. |    Nombre     | Escriban aquí su respuesta. |
-|     2     | Como [rol] quiero [acción] para [beneficio]. |    Nombre     | Escriban aquí su respuesta. |
-|     3     | Como [rol] quiero [acción] para [beneficio]. |    Nombre     | Escriban aquí su respuesta. |
-|     4     | Como [rol] quiero [acción] para [beneficio]. |    Nombre     | Escriban aquí su respuesta. |
-|     5     | Como [rol] quiero [acción] para [beneficio]. |    Nombre     | Escriban aquí su respuesta. |
-
-_(Agreguen o borren filas según las historias que pasen al backlog.)_
+| 6 | Como personal autorizado para el retorno al servicio, quiero verificar que la ejecución y las inspecciones requeridas estén completas antes de registrar mi aprobación para evitar liberar una aeronave con documentación incompleta. | Diego Alejandro Rubio Ramos | Debería entrar porque completa la cadena de responsabilidad y permite confirmar que el trabajo, la evidencia y las inspecciones requeridas estén disponibles antes de aprobar el retorno al servicio. |
 
 ---
 
