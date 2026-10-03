@@ -179,3 +179,11 @@ tmp/
 
 # Vite
 vite.config.*.timestamp-*
+
+
+.vs/VSWorkspaceState.json
+.vs/tracium_blockchain/FileContentIndex/6e4d058a-3c71-4a89-813f-24855c4b332e.vsidx
+.vs/tracium_blockchain/FileContentIndex/affc3699-255b-4cdf-8581-153c9a589797.vsidx
+.vs/tracium_blockchain/v17/.suo
+.vs/tracium_blockchain/v17/.wsuo
+.vs/tracium_blockchain/v17/DocumentLayout.json

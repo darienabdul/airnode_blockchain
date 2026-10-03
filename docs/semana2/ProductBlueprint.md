@@ -1,6 +1,6 @@
 # Product Blueprint
 
-**Nombre del proyecto:** Escriban aquí el nombre
+**Nombre del proyecto:** TRACIUM
 
 **Repositorio (enlace obligatorio):** [tracium_blockchain](https://github.com/darienabdul/tracium_blockchain)
 
