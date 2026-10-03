@@ -16,7 +16,7 @@ Identificar la historia de una pieza de una aeronave, cómo ha sido usada y qué
 
 > Quién tiene el problema y en qué situación lo vive.
 
-Sebastián es un mecánico de avionetas; él debe reemplazar el sensor de velocidad del aire, ya que cumplió sus horas de vuelo, pero el reemplazo no es nuevo y no conoce cuántas horas de vuelo tiene esta pieza.
+Sebastián es un mecánico de avionetas; él debe reemplazar el sensor de velocidad del aire, ya que cumplió sus horas de vuelo, pero el reemplazo no es nuevo y no conoce cuántas horas de vuelo tiene esta pieza, será segura usarla.
 
 ## ¿Cómo se resuelve hoy y qué cuesta?
 
