@@ -48,14 +48,17 @@
 
 > Qué resultado obtiene el usuario y por qué elegiría esta solución. En qué se diferencia de cómo resuelve hoy. Conecta con el usuario del Problem Brief. Extensión: 150–300 palabras en total.
 
-**Usuario (del Problem Brief):** Escriban aquí su respuesta.
-
-**Resultado que obtiene:** Escriban aquí su respuesta.
-
-**Por qué elegiría esta solución:** Escriban aquí su respuesta.
-
-**En qué se diferencia de cómo lo resuelve hoy:** Escriban aquí su respuesta.
-
+**Usuario (del Problem Brief):**
+El usuario principal es el personal de Calidad que necesita reconstruir o validar el historial de una intervención de mantenimiento aeronáutico. También se benefician los técnicos de Mantenimiento, inspectores autorizados, personal de Ingeniería, Operaciones, auditores y personal de Cumplimiento Regulatorio que producen, revisan, aprueban o consultan los registros.
+ 
+**Resultado que obtiene:**
+El usuario obtiene un historial digital vinculado y verificable de cada intervención. Desde un mismo punto puede consultar quién realizó el trabajo, cuándo se ejecutó, qué evidencia fue adjuntada, quién inspeccionó la actividad, quién aprobó el retorno al servicio y qué modificaciones se realizaron posteriormente. Esto reduce el esfuerzo necesario para reconstruir el historial y facilita la identificación de información incompleta o inconsistente.
+ 
+**Por qué elegiría esta solución:**
+La elegiría porque mejora la trazabilidad, atribución e integridad de los registros sin eliminar los controles de calidad ni las autorizaciones requeridas. Además, facilita la preparación de evidencia para auditorías, investigaciones de discrepancias y revisiones regulatorias. La solución permite validar la procedencia y secuencia de los eventos, manteniendo visibles las correcciones vinculadas al registro original.
+ 
+**En qué se diferencia de cómo lo resuelve hoy:**
+Actualmente, el usuario debe buscar y reconciliar manualmente órdenes de trabajo, tarjetas de tarea, logbooks, formularios firmados, documentos escaneados y datos almacenados en diferentes aplicaciones. La solución propuesta captura y relaciona la evidencia desde el origen mediante identificadores comunes, convirtiendo documentos dispersos en un historial estructurado y verificable, sin asumir que la tecnología por sí sola garantiza que los datos registrados sean correctos.
 ---
 
 ## 3. Flujo de usuario
