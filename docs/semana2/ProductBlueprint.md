@@ -25,7 +25,23 @@
 
 > Historias elegidas entre las que propuso el equipo y criterio con que se priorizaron. Son las que pasan al backlog. Extensión: breve.
 
+## 1. Priorización de historias
+
+> Historias elegidas entre las que propuso el equipo y criterio con que se priorizaron. Son las que pasan al backlog. Extensión: breve.
+
 **Criterio de priorización:** Escriban aquí el criterio (por ejemplo, imprescindible / debería / podría / queda fuera).
+
+ Se priorizaron las historias que permiten registrar una intervención desde el origen, consultar su historial completo, comprobar la atribución de las actividades, respaldar el trabajo con evidencia y validar la integridad de los registros:
+
+| Prioridad | Historia | Propuesta por | Por qué entra al backlog |
+| :-------: | -------- | :-----------: | ------------------------ |
+| 1 | Como técnico de mantenimiento, quiero registrar una intervención realizada para que quede asociada a mi identidad, fecha y trabajo ejecutado. | Abdul Ruiz Saldaña | Es imprescindible porque crea el registro base del producto. Sin la intervención, su autoría y su fecha, no puede existir un historial trazable ni verificable. |
+| 2 | Como personal de Calidad, quiero consultar en un solo lugar el historial completo de una intervención de mantenimiento para verificar quién realizó, inspeccionó y aprobó el trabajo. | Diego Alejandro Rubio Ramos | Es imprescindible porque representa el resultado principal de la solución: reconstruir y verificar el historial sin reconciliar documentos o sistemas dispersos. |
+| 3 | Como auditor, quiero verificar quién realizó cada intervención y cuándo fue registrada para poder comprobar la atribución de las actividades. | Abdul Ruiz Saldaña | Es imprescindible para establecer responsabilidad y demostrar la procedencia de cada actividad durante una revisión interna o regulatoria. |
+| 4 | Como inspector autorizado, quiero revisar la evidencia del trabajo y registrar el resultado de mi inspección para confirmar que la intervención cumple con los procedimientos aplicables. | Diego Alejandro Rubio Ramos | Debería entrar porque incorpora la validación formal del trabajo y conecta la intervención con la inspección requerida antes de su aprobación. |
+| 5 | Como auditor, quiero verificar la integridad y secuencia de los registros para poder identificar modificaciones posteriores o inconsistencias en el historial. | Abdul Ruiz Saldaña | Debería entrar porque permite detectar cambios posteriores y comprobar que el historial mantiene una secuencia confiable. |
+
+
 
 | Prioridad | Historia                                     | Propuesta por | Por qué entra al backlog    |
 | :-------: | -------------------------------------------- | :-----------: | --------------------------- |
