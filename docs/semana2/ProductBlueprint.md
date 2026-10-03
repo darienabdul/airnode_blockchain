@@ -49,7 +49,7 @@ Se priorizaron las historias que permiten registrar una intervención desde el o
 > Qué resultado obtiene el usuario y por qué elegiría esta solución. En qué se diferencia de cómo resuelve hoy. Conecta con el usuario del Problem Brief. Extensión: 150–300 palabras en total.
 
 **Usuario (del Problem Brief):**
-El usuario principal es el personal de Calidad que necesita reconstruir o validar el historial de una intervención de mantenimiento aeronáutico. También se benefician los técnicos de Mantenimiento, inspectores autorizados, personal de Ingeniería, Operaciones, auditores y personal de Cumplimiento Regulatorio que producen, revisan, aprueban o consultan los registros.
+Los usuarios principales son los técnicos de Mantenimiento, que registran intervenciones y evidencias, y los auditores internos o regulatorios, que necesitan consultar, reconstruir y verificar el historial de una intervención de mantenimiento aeronáutico. Para el MVP, el cliente objetivo son únicamente las organizaciones de mantenimiento, reparación y revisión de aeronaves (MRO, por sus siglas en inglés). También participan como usuarios secundarios el personal de Calidad, inspectores autorizados, responsables del retorno al servicio, administradores de registros e Ingeniería. Operaciones, los operadores o clientes y Cumplimiento Regulatorio son stakeholders que producen, solicitan o utilizan la evidencia.
 
  
 **Resultado que obtiene:**
@@ -98,7 +98,7 @@ _(Agreguen los pasos que hagan falta. Si prefieren, inserten aquí un diagrama.)
 
 > Lienzo de una página con el modelo del producto. Extensión: enlace (obligatorio).
 
-**Enlace al Lean Canvas (obligatorio):** [Lean Canvas del proyecto](https://escriban-aqui-el-enlace)
+**Enlace al Lean Canvas (obligatorio):** [Lean Canvas del proyecto](./tracium-lean-canvas-infographic.png)
 
 El lienzo debe cubrir: problema, segmento de usuarios, propuesta de valor única, solución, canales, métricas clave, ventaja diferencial y estructura de costos e ingresos.
 
