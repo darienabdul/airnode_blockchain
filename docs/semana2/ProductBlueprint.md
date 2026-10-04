@@ -126,8 +126,9 @@ El lienzo debe cubrir: problema, segmento de usuarios, propuesta de valor única
 > Cómo se conectan las partes (interfaz, lógica, Stellar) y en qué punto entra la red. Diagrama simple en imagen. Extensión: 150–300 palabras en total.
 
 
-**Diagrama (imagen o enlace):** 
-./images/arquitectura-inicial.png
+**Diagrama:** 
+
+![Diagrama de Arquitectura Inicial](./images/arquitectura-inicial.png)
 
  
 | Capa | Componente | Qué hace |
