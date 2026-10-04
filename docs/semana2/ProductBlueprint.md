@@ -67,22 +67,25 @@ Actualmente, el usuario debe buscar y reconciliar manualmente órdenes de trabaj
 ---
 
 ## 3. Flujo de usuario
+
  
+
 > Recorrido de la persona por la solución de principio a fin, roles y puntos de interacción. Diagrama o secuencia numerada. Extensión: 150–300 palabras.
 
-| Paso | Rol | Qué hace | Punto de interacción |
-| :--: | :-- | -------- | -------------------- |
-| 1 | Técnico de Mantenimiento | Inicia sesión, selecciona la aeronave, el componente y la orden de trabajo correspondientes, y registra la intervención realizada. | Pantalla de autenticación y formulario de registro |
-| 2 | Técnico de Mantenimiento | Adjunta la evidencia del trabajo, incluyendo documentos, fotografías o referencias técnicas, y confirma que la información ingresada es correcta. | Módulo de evidencias y almacenamiento digital |
-| 3 | Sistema | Asocia la intervención con la identidad del técnico, la fecha, la orden de trabajo y la evidencia adjunta. Después, genera una referencia verificable del evento. | Aplicación, base de datos y red Stellar |
-| 4 | Inspector autorizado | Consulta la intervención y su evidencia, verifica el cumplimiento de los procedimientos aplicables y registra el resultado de la inspección. | Panel de inspección y billetera digital |
-| 5 | Personal autorizado para el retorno al servicio | Comprueba que el trabajo, la evidencia y las inspecciones requeridas estén completos antes de registrar la aprobación correspondiente. | Pantalla de aprobación y red Stellar |
-| 6 | Personal de Calidad | Consulta en un solo lugar la secuencia completa de ejecución, inspección, aprobación y posibles correcciones de la intervención. | Panel de historial y trazabilidad |
-| 7 | Auditor | Revisa quién realizó cada actividad, cuándo fue registrada y si existen modificaciones posteriores o inconsistencias en la secuencia. | Vista de auditoría y verificación de registros |
+| Paso | Rol                                             | Qué hace                                                                                                                                                          | Punto de interacción                               |
+| :--: | :---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+|  1   | Técnico de Mantenimiento                        | Inicia sesión, selecciona la aeronave, el componente y la orden de trabajo correspondientes, y registra la intervención realizada.                                | Pantalla de autenticación y formulario de registro |
+|  2   | Técnico de Mantenimiento                        | Adjunta la evidencia del trabajo, incluyendo documentos, fotografías o referencias técnicas, y confirma que la información ingresada es correcta.                 | Módulo de evidencias y almacenamiento digital      |
+|  3   | Sistema                                         | Asocia la intervención con la identidad del técnico, la fecha, la orden de trabajo y la evidencia adjunta. Después, genera una referencia verificable del evento. | Aplicación, base de datos y red Stellar            |
+|  4   | Inspector autorizado                            | Consulta la intervención y su evidencia, verifica el cumplimiento de los procedimientos aplicables y registra el resultado de la inspección.                      | Panel de inspección y billetera digital            |
+|  5   | Personal autorizado para el retorno al servicio | Comprueba que el trabajo, la evidencia y las inspecciones requeridas estén completos antes de registrar la aprobación correspondiente.                            | Pantalla de aprobación y red Stellar               |
+|  6   | Personal de Calidad                             | Consulta en un solo lugar la secuencia completa de ejecución, inspección, aprobación y posibles correcciones de la intervención.                                  | Panel de historial y trazabilidad                  |
+|  7   | Auditor                                         | Revisa quién realizó cada actividad, cuándo fue registrada y si existen modificaciones posteriores o inconsistencias en la secuencia.                             | Vista de auditoría y verificación de registros     |
 
 El flujo comienza con la captura de la intervención y su evidencia desde el origen. Cada evento queda relacionado con la persona responsable, la fecha y la orden de trabajo. Posteriormente, el inspector revisa el trabajo y el personal autorizado valida que la documentación esté completa antes de aprobar el retorno al servicio. Finalmente, Calidad y Auditoría pueden consultar un historial estructurado y verificar la atribución, integridad y secuencia de los registros.
 
 ---
+
 ## 4. Alcance del MVP
 
 > Funcionalidad central separada de la deseable que queda fuera. Justificación de por qué el recorte sigue entregando valor. Extensión: 150–300 palabras en total.
@@ -107,9 +110,11 @@ El MVP sigue entregando valor porque permite demostrar el flujo principal del pr
 
 > Lienzo de una página con el modelo del producto. Extensión: enlace (obligatorio).
 
-**Enlace al Lean Canvas (obligatorio):** [Lean Canvas del proyecto](./tracium-lean-canvas-infographic.png)
+**Enlace al Lean Canvas (obligatorio):** [Lean Canvas del proyecto](./images/tracium-lean-canvas-infographic.png)
 
 El lienzo debe cubrir: problema, segmento de usuarios, propuesta de valor única, solución, canales, métricas clave, ventaja diferencial y estructura de costos e ingresos.
+
+![Lean Canvas del proyecto](./images/tracium-lean-canvas-infographic.png)
 
 ---
 
@@ -125,8 +130,7 @@ El lienzo debe cubrir: problema, segmento de usuarios, propuesta de valor única
 
 > Cómo se conectan las partes (interfaz, lógica, Stellar) y en qué punto entra la red. Diagrama simple en imagen. Extensión: 150–300 palabras en total.
 
-
-**Diagrama:** 
+**Diagrama:**
 
 ![Diagrama de Arquitectura Inicial](./images/arquitectura-inicial.png)
 
@@ -143,18 +147,20 @@ El lienzo debe cubrir: problema, segmento de usuarios, propuesta de valor única
 
 La red Stellar entra cuando la lógica de negocio genera una referencia verificable, o hash, de una intervención, inspección, aprobación o corrección. Después de validar la identidad, los permisos y la información del evento, el backend utiliza el Stellar SDK para enviar a la red la referencia verificable y los metadatos mínimos necesarios.
 
-
 Los detalles de las intervenciones, los registros operativos y los archivos de evidencia se almacenan fuera de la red, en la base de datos y en el almacenamiento de archivos. De esta manera, Stellar no almacena directamente información técnica o sensible. Cuando Calidad o Auditoría consulta el historial, el backend recupera la información almacenada y compara su hash con la referencia registrada en Stellar. Si los valores coinciden, el sistema puede comprobar que el registro no ha sido modificado. Stellar también permite mantener una secuencia verificable de los eventos clave e identificar a las organizaciones que participan en el proceso.
 
 ---
 
 ## 8. Uso de Stellar y justificación
+
  
+
 > Qué componentes de Stellar usaría y por qué cada uno. Apoyado en el criterio de pertinencia del Problem Brief. Extensión: 150–300 palabras en total.
 
 **Criterio de pertinencia (del Problem Brief):**
 
 El proyecto se apoya en el criterio de que varias organizaciones independientes, como operadores, organizaciones de mantenimiento y centros de servicio, necesitan compartir y validar un mismo historial sin depender exclusivamente de un custodio central. También requiere conservar la secuencia de las intervenciones, inspecciones, aprobaciones y correcciones para identificar modificaciones posteriores. Stellar solo será pertinente si demuestra ventajas concretas frente a una base de datos centralizada con firmas electrónicas, control de acceso, versionado y auditoría.
+
  
 | Componente de Stellar | Para qué lo usamos | Por qué ese y no otra alternativa |
 | --------------------- | ------------------- | --------------------------------- |
